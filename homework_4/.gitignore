@@ -1,0 +1,9 @@
+test.cpp
+.vscode/
+build/
+
+HW4.vcxproj.user
+
+HW4.vcxproj
+HW4.vcxproj.filters
+x64/Debug/*
