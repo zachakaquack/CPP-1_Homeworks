@@ -1,12 +1,12 @@
 // HW4 - Delivery
 // Date: 10/26/2025
 // Class: PROG1204-1
-// Authors: Zach Allen, Thomas Fleming, Elijah Johnson
+// Authors: <zachakaquack>, <TFleming-discord>, <JustCat80>
 //
 // C++ 17+ recommended
 
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 #include "console.h"
 #include "destination.h"
@@ -24,9 +24,9 @@ int main() {
 #endif
 
     cout << "HW4 - Delivery" << '\n';
-    cout << "Solution by Zach Allen, Thomas Fleming, Elijah Johnson"
-              << '\n'
-              << '\n';
+    cout << "Solution by <zachakaquack>, <TFleming-discord>, <JustCat80>"
+         << '\n'
+         << '\n';
 
     bool wantToQuit = false;
     while (true) {
@@ -97,7 +97,6 @@ int main() {
         // actually calculate the route
         double distance = fullRoute(destinations);
 
-
         cout << "Route: " << '\n';
         // print in order
         // print out if i == the visited number (kinda sucks but it works)
@@ -106,7 +105,8 @@ int main() {
             for (Destination &d : destinations) {
                 if (i == d.visited()) {
                     Location loc = d.location();
-                    cout << setw(10) << d.name() << " " << loc << " " << setw(12) << d.distance() << " miles to next\n";
+                    cout << setw(10) << d.name() << " " << loc << " "
+                         << setw(12) << d.distance() << " miles to next\n";
                     visitedOrder.push_back(d);
                 }
             }
