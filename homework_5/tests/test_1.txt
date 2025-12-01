@@ -1,0 +1,35 @@
+Circuit Test Casse 3
+Serial	
+	Parallel
+		Resistor 25.0
+		Parallel
+			Serial
+				Resistor 10.0
+				Resistor 15.0
+			EndSerial
+			Resistor 12.0
+		EndParallel
+		Parallel
+			Serial	
+				Resistor 40.0
+				Resistor 9.0
+			EndSerial
+			Serial
+				Resistor 5.0
+				Resistor 6.75
+			EndSerial
+		EndParallel
+		Serial
+			Resistor 11.5
+			Resistor 33.5
+		EndSerial
+	EndParallel
+	Parallel
+		Resistor 77.0
+		Serial
+			Resistor 8.25
+			Resistor 6.45
+		EndSerial
+	EndParallel
+EndSerial
+EndCircuit

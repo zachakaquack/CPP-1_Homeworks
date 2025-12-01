@@ -1,0 +1,24 @@
+Circuit Test Case 2
+Parallel
+Serial
+Resistor 25.0
+Resistor 60.5
+Resistor 90.0
+EndSerial
+Serial
+Parallel
+Resistor 30.0
+Resistor 75.0
+EndParallel
+Parallel
+Resistor 40.0
+Resistor 40.0
+EndParallel
+EndSerial
+Serial
+Resistor 100.0
+Resistor 16.5
+EndSerial
+EndParallel
+EndCircuit
+
