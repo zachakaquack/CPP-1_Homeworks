@@ -1,0 +1,61 @@
+.vscode/
+build/
+
+test.cpp
+
+
+# Just in case for when we test with VS Community
+HW6.vcxproj.user
+HW6.vcxproj
+HW6.vcxproj.filters
+x64/Debug/*
+
+# VSCode catch
+HW6.exe
+
+# extra stuff for zach
+.git/
+a.out
+
+# stuff from https://github.com/github/gitignore
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
